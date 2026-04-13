@@ -3,44 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobby & Kemampuan</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Profile Lengkap | Fathurrahman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<header>
-    <nav>
-        <div class="logo">Fathurrahman<span>Pahmiputra</span></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="detail.html">Hobby & Skill</a></li>
-        </ul>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Fathurrahman <span class="text-primary">Pahmiputra</span></a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="detail.html">Profile</a>
+            </div>
+        </div>
     </nav>
-</header>
 
-<section id="projects">
-    <h2>Hobby Saya</h2>
-    <ul>
-        <li>Gaming</li>
-        <li>Merakit Model Kit</li>
-        <li>Menonton Film</li>
-    </ul>
+    <main class="container py-5 mb-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Profile Lengkap</h2>
+            <p class="text-muted">Informasi mengenai kegemaran dan keahlian saya.</p>
+        </div>
 
-    <h2 style="margin-top: 40px;">Kemampuan</h2>
-    <ul>
-        <li>Pemrograman Java</li>
-        <li>Query SQL</li>
-        <li>Hardware Troubleshooting</li>
-    </ul>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-primary text-white py-3">
+                        <h5 class="mb-0">Hobby Saya</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Gaming</li>
+                            <li class="list-group-item">Merakit Model Kit</li>
+                            <li class="list-group-item">Menonton Film</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
- 
-    <h2>Tentang Saya</h2>
-    <ul>
-    <li>Saya tertarik pada pengembangan perangkat lunak dan teknologi. Saat ini sedang mempelajari Java, SQL, dan pengembangan web.</p>
-    </ul>
-</section>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-success text-white py-3">
+                        <h5 class="mb-0">Kemampuan</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Pemrograman Java</li>
+                            <li class="list-group-item">Query SQL</li>
+                            <li class="list-group-item">Hardware Troubleshooting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<footer>
-    <p>&copy; 2026 Fathurrahman Pahmiputra</p>
-</footer>
+        <div class="card mt-4 shadow-sm border-0 border-start border-primary border-5">
+            <div class="card-body p-4">
+                <h4 class="fw-bold">Tentang Saya</h4>
+                <p class="mb-0 text-secondary">
+                    Saya tertarik pada pengembangan perangkat lunak dan teknologi. Saat ini sedang mempelajari Java, SQL, dan pengembangan web.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">&copy; 2026 Fathurrahman Pahmiputra</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
